@@ -13,6 +13,7 @@ job('ejemplo2-job-DSL') {
     	}
   	triggers {
     		cron('H/8 * * * *')
+			githubPush()
     	}
   	steps {
     		shell("bash jobscript.sh")
