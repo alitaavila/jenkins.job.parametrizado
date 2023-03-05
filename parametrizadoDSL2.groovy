@@ -26,7 +26,7 @@ job('ejemplo3-job-DSL') {
 		  notifyNotBuilt(false)
 		  notifyUnstable(false)
 		  notifyBackToNormal(true)
-		  notifySuccess(false)
+		  notifySuccess(true)
 		  notifyRepeatedFailure(false)
 		  startNotification(false)
 		  includeTestSummary(false)
